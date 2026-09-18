@@ -1,0 +1,9 @@
+{
+  "name": "goron-vtt",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Goron VTT",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {}
+}
