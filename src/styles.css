@@ -39,9 +39,9 @@
 .v18-selected-choice p{margin:4px 0 0;color:#b9b7c6;font-size:8.5px;line-height:1.45}
 
 /* Sombras laterais menos pesadas. */
-body.arcane-bazaar-theme .character-sheet-drawer,
-body.arcane-bazaar-theme .dm-screen-drawer,
-body.arcane-bazaar-theme .grimoire-drawer {
+body.goron-theme .character-sheet-drawer,
+body.goron-theme .dm-screen-drawer,
+body.goron-theme .grimoire-drawer {
     box-shadow: 12px 0 30px rgba(0,0,0,.38), 0 0 16px rgba(198,155,50,.045) !important;
 }
 
@@ -145,7 +145,7 @@ body.quick-attributes-open .char-attributes-tab { right: min(492px, calc(100vw -
 }
 
 /* Grimório: preparada ativa sem borda verde. */
-body.arcane-bazaar-theme .btn-spell-action.active-prep {
+body.goron-theme .btn-spell-action.active-prep {
     border-color: transparent !important;
     background: rgba(198,155,50,.12) !important;
     color:#f4c94f !important;

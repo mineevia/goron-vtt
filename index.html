@@ -23,7 +23,7 @@ Atualizado em 11/09/2026
 17. Dropdowns estáveis, Grimório por classe, Painel de Magia e Escudo do Mestre
 18. Third-Casters, Grimório em jogo, preparação/conjuração, painéis e Escudo do Mestre
 19. Otimização do Grimório - abertura, renderização, filtros e limpeza visual
-20. Tema visual Arcane Bazaar - paleta, superfícies, tipografia e componentes
+20. Tema visual - paleta, superfícies, tipografia e componentes
 21. Sincronização de ficha, Grimório, painéis, Mestre e multiclasse
 22. Fonte única de dados, progressão por níveis, companheiros e estabilidade de gavetas
 23. Controlador único de gavetas, header estável e otimização de abertura
@@ -3358,7 +3358,7 @@ Atualizado em 11/09/2026
 <link rel="stylesheet" href="./src/theme.css">
 <link rel="stylesheet" href="./src/styles.css">
 </head>
-    <body class="arcane-bazaar-theme">
+    <body class="goron-theme">
         <!-- MODAL DE ENTRADA / CRIAR MESA -->
         <!-- MODAL DE AUTENTICAÇÃO, SALAS E ENTRADA - GORON VTT -->
         <div class="modal-overlay" id="login-modal" style="display: flex">
@@ -28742,7 +28742,7 @@ body.quick-hitdice-open .char-hitdice-tab { right:min(468px,calc(100vw - 10px));
 /* ---------- Grimório ---------- */
 #grimoire-list-container .btn-spell-action:first-child:hover:not(:disabled),
 #grimoire-list-container .btn-spell-action.active-fav,
-body.arcane-bazaar-theme .btn-spell-action.active-fav { color:#facc15 !important;background:rgba(250,204,21,.09) !important; }
+body.goron-theme .btn-spell-action.active-fav { color:#facc15 !important;background:rgba(250,204,21,.09) !important; }
 .filter-dropdown-menu .filter-opt {
     border:none !important;
     outline:none !important;
@@ -29366,13 +29366,13 @@ setTimeout(v19InitialPolish,60);
 
 /* O conteúdo principal já possuía compensação superior; padronizamos
    explicitamente com a altura real do header. */
-body.arcane-bazaar-theme {
+body.goron-theme {
     padding-top: calc(var(--v20-header-h) + 12px) !important;
 }
 
 /* Header fixo, mas em uma camada abaixo das gavetas.
    Assim ele continua sempre visível sem encobrir o cabeçalho do Grimório/DM. */
-body.arcane-bazaar-theme .vtt-header-bar {
+body.goron-theme .vtt-header-bar {
     position: fixed !important;
     top: 0 !important;
     left: 0 !important;
@@ -29386,9 +29386,9 @@ body.arcane-bazaar-theme .vtt-header-bar {
 
 /* As gavetas começam abaixo do header global, portanto nunca ficam escondidas
    por baixo dele. */
-body.arcane-bazaar-theme .grimoire-drawer,
-body.arcane-bazaar-theme .dm-screen-drawer,
-body.arcane-bazaar-theme .character-sheet-drawer {
+body.goron-theme .grimoire-drawer,
+body.goron-theme .dm-screen-drawer,
+body.goron-theme .character-sheet-drawer {
     top: var(--v20-header-h) !important;
     bottom: auto !important;
     height: calc(100dvh - var(--v20-header-h)) !important;
@@ -29398,8 +29398,8 @@ body.arcane-bazaar-theme .character-sheet-drawer {
 
 /* Grimório e Escudo passam a compartilhar a mesma animação, sem "all",
    evitando recálculos e animações desnecessárias. */
-body.arcane-bazaar-theme .grimoire-drawer,
-body.arcane-bazaar-theme .dm-screen-drawer {
+body.goron-theme .grimoire-drawer,
+body.goron-theme .dm-screen-drawer {
     z-index: 900 !important;
     transform: translate3d(-100%,0,0) !important;
     transition: transform var(--v20-drawer-time) var(--v20-drawer-ease) !important;
@@ -29407,15 +29407,15 @@ body.arcane-bazaar-theme .dm-screen-drawer {
     backface-visibility: hidden;
     pointer-events: none;
 }
-body.arcane-bazaar-theme .grimoire-drawer.open,
-body.arcane-bazaar-theme .dm-screen-drawer.open {
+body.goron-theme .grimoire-drawer.open,
+body.goron-theme .dm-screen-drawer.open {
     transform: translate3d(0,0,0) !important;
     pointer-events: auto;
 }
 
 /* A divisória acompanha exatamente a duração da gaveta. */
-body.arcane-bazaar-theme .grimoire-tab,
-body.arcane-bazaar-theme .dm-screen-tab {
+body.goron-theme .grimoire-tab,
+body.goron-theme .dm-screen-tab {
     z-index: 910 !important;
     transition:
         left var(--v20-drawer-time) var(--v20-drawer-ease),
@@ -29466,14 +29466,14 @@ body.v20-modal-open .dm-screen-tab {
 /* Evita barras superiores "fantasmas" acima da área útil quando a viewport
    muda de tamanho. */
 @supports (height: 100dvh) {
-    body.arcane-bazaar-theme {
+    body.goron-theme {
         min-height: 100dvh;
     }
 }
 
 @media (max-width: 760px) {
     :root { --v20-header-h: 50px; }
-    body.arcane-bazaar-theme {
+    body.goron-theme {
         padding-top: calc(var(--v20-header-h) + 8px) !important;
     }
 }
@@ -30231,21 +30231,21 @@ v21CenterQuickNumbers();
 /* ---------- 25.1 Camadas globais ----------
    As gavetas cobrem Header e barra inferior quando abertas.
    Os modais continuam acima de tudo. */
-body.arcane-bazaar-theme .vtt-header-bar {
+body.goron-theme .vtt-header-bar {
     z-index:620 !important;
 }
 
-body.arcane-bazaar-theme .vtt-bottom-left-bar {
+body.goron-theme .vtt-bottom-left-bar {
     z-index:610 !important;
 }
 
-body.arcane-bazaar-theme .account-switch-panel {
+body.goron-theme .account-switch-panel {
     z-index:650 !important;
 }
 
-body.arcane-bazaar-theme .grimoire-drawer,
-body.arcane-bazaar-theme .dm-screen-drawer,
-body.arcane-bazaar-theme .character-sheet-drawer {
+body.goron-theme .grimoire-drawer,
+body.goron-theme .dm-screen-drawer,
+body.goron-theme .character-sheet-drawer {
     top:0 !important;
     bottom:0 !important;
     height:100dvh !important;
@@ -30255,9 +30255,9 @@ body.arcane-bazaar-theme .character-sheet-drawer {
 
 /* Se a viewport ainda não suporta dvh. */
 @supports not (height: 100dvh) {
-    body.arcane-bazaar-theme .grimoire-drawer,
-    body.arcane-bazaar-theme .dm-screen-drawer,
-    body.arcane-bazaar-theme .character-sheet-drawer {
+    body.goron-theme .grimoire-drawer,
+    body.goron-theme .dm-screen-drawer,
+    body.goron-theme .character-sheet-drawer {
         height:100vh !important;
         max-height:100vh !important;
     }

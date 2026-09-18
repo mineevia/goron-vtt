@@ -1,8 +1,4 @@
-/* ============================================================
-   20. TEMA VISUAL - INSPIRADO NO ARCANE BAZAAR
-   Paleta navy/índigo, ouro envelhecido, creme e vinho arcano.
-   A revisão é puramente visual: preserva estrutura e lógica.
-   ============================================================ */
+/* Tema visual principal */
 
 :root {
     --bg-main: #090b15;
@@ -50,7 +46,7 @@ html {
     background: var(--arcane-app) !important;
 }
 
-body.arcane-bazaar-theme {
+body.goron-theme {
     color: var(--arcane-cream) !important;
     background:
         radial-gradient(circle at 72% -12%, rgba(81, 59, 130, .16), transparent 35%),
@@ -60,37 +56,37 @@ body.arcane-bazaar-theme {
     background-size: auto, auto, 100% 56px, auto !important;
 }
 
-body.arcane-bazaar-theme,
-body.arcane-bazaar-theme button,
-body.arcane-bazaar-theme input,
-body.arcane-bazaar-theme select,
-body.arcane-bazaar-theme textarea {
+body.goron-theme,
+body.goron-theme button,
+body.goron-theme input,
+body.goron-theme select,
+body.goron-theme textarea {
     text-rendering: optimizeLegibility;
 }
 
-body.arcane-bazaar-theme ::selection {
+body.goron-theme ::selection {
     color: #fff5cf;
     background: rgba(160, 110, 21, .45);
 }
 
-body.arcane-bazaar-theme * {
+body.goron-theme * {
     scrollbar-color: #8d6b1e transparent;
     scrollbar-width: thin;
 }
-body.arcane-bazaar-theme *::-webkit-scrollbar {
+body.goron-theme *::-webkit-scrollbar {
     width: 6px;
     height: 6px;
 }
-body.arcane-bazaar-theme *::-webkit-scrollbar-thumb {
+body.goron-theme *::-webkit-scrollbar-thumb {
     border-radius: 999px;
     background: #8d6b1e;
 }
-body.arcane-bazaar-theme *::-webkit-scrollbar-track {
+body.goron-theme *::-webkit-scrollbar-track {
     background: transparent;
 }
 
 /* ---------- Cabeçalho e barras fixas ---------- */
-body.arcane-bazaar-theme .vtt-header-bar {
+body.goron-theme .vtt-header-bar {
     height: 52px;
     padding: 0 28px;
     background:
@@ -99,54 +95,54 @@ body.arcane-bazaar-theme .vtt-header-bar {
     border-bottom: 1px solid #292a40 !important;
     box-shadow: 0 8px 28px rgba(0,0,0,.38) !important;
 }
-body.arcane-bazaar-theme .vtt-title {
+body.goron-theme .vtt-title {
     color: var(--arcane-gold-bright) !important;
     letter-spacing: 1.7px !important;
     text-shadow: 0 0 14px rgba(244,201,79,.12);
 }
-body.arcane-bazaar-theme .vtt-subtitle {
+body.goron-theme .vtt-subtitle {
     color: #9c91c2 !important;
 }
-body.arcane-bazaar-theme .vtt-system-tag,
-body.arcane-bazaar-theme .account-switch-btn {
+body.goron-theme .vtt-system-tag,
+body.goron-theme .account-switch-btn {
     background: rgba(18,19,33,.94) !important;
     border-color: #4a485f !important;
     color: #b7b2c8 !important;
     box-shadow: 0 5px 18px rgba(0,0,0,.32) !important;
 }
-body.arcane-bazaar-theme .account-switch-btn:hover {
+body.goron-theme .account-switch-btn:hover {
     color: var(--arcane-gold-bright) !important;
     border-color: #806b3b !important;
     box-shadow: 0 0 0 2px rgba(198,155,50,.08), 0 6px 20px rgba(0,0,0,.38) !important;
 }
 
 /* ---------- Superfícies principais ---------- */
-body.arcane-bazaar-theme .card,
-body.arcane-bazaar-theme .class-detail-col,
-body.arcane-bazaar-theme .class-prop-grid,
-body.arcane-bazaar-theme .class-feature-box,
-body.arcane-bazaar-theme .builder-rule-card,
-body.arcane-bazaar-theme .builder-spell-class-card,
-body.arcane-bazaar-theme .feat-slot,
-body.arcane-bazaar-theme .v2-choice-card,
-body.arcane-bazaar-theme .v4-choice-card,
-body.arcane-bazaar-theme .v4-feature-card,
-body.arcane-bazaar-theme .v10-summary-section,
-body.arcane-bazaar-theme .v12-choice-record,
-body.arcane-bazaar-theme .v13-feature-block,
-body.arcane-bazaar-theme .v13-resource-card,
-body.arcane-bazaar-theme .g14-magic-card,
-body.arcane-bazaar-theme .v15-panel-card,
-body.arcane-bazaar-theme .v15-resource-block,
-body.arcane-bazaar-theme .sheet-info-box,
-body.arcane-bazaar-theme .sheet-important-card,
-body.arcane-bazaar-theme .ability-score-card,
-body.arcane-bazaar-theme .skill-row,
-body.arcane-bazaar-theme .char-stat-box,
-body.arcane-bazaar-theme .quick-ability,
-body.arcane-bazaar-theme .dm-stat-row,
-body.arcane-bazaar-theme .v15-hand-card,
-body.arcane-bazaar-theme .v15-feature-subblock {
+body.goron-theme .card,
+body.goron-theme .class-detail-col,
+body.goron-theme .class-prop-grid,
+body.goron-theme .class-feature-box,
+body.goron-theme .builder-rule-card,
+body.goron-theme .builder-spell-class-card,
+body.goron-theme .feat-slot,
+body.goron-theme .v2-choice-card,
+body.goron-theme .v4-choice-card,
+body.goron-theme .v4-feature-card,
+body.goron-theme .v10-summary-section,
+body.goron-theme .v12-choice-record,
+body.goron-theme .v13-feature-block,
+body.goron-theme .v13-resource-card,
+body.goron-theme .g14-magic-card,
+body.goron-theme .v15-panel-card,
+body.goron-theme .v15-resource-block,
+body.goron-theme .sheet-info-box,
+body.goron-theme .sheet-important-card,
+body.goron-theme .ability-score-card,
+body.goron-theme .skill-row,
+body.goron-theme .char-stat-box,
+body.goron-theme .quick-ability,
+body.goron-theme .dm-stat-row,
+body.goron-theme .v15-hand-card,
+body.goron-theme .v15-feature-subblock {
     background: rgba(23,25,42,.92) !important;
     border-color: var(--arcane-border) !important;
     box-shadow:
@@ -154,68 +150,68 @@ body.arcane-bazaar-theme .v15-feature-subblock {
         0 7px 20px rgba(0,0,0,.16) !important;
 }
 
-body.arcane-bazaar-theme .card:hover,
-body.arcane-bazaar-theme .sheet-important-card:hover,
-body.arcane-bazaar-theme .quick-ability:hover {
+body.goron-theme .card:hover,
+body.goron-theme .sheet-important-card:hover,
+body.goron-theme .quick-ability:hover {
     border-color: #47465e !important;
 }
 
 /* ---------- Títulos e divisórias ---------- */
-body.arcane-bazaar-theme h1,
-body.arcane-bazaar-theme h2,
-body.arcane-bazaar-theme h3,
-body.arcane-bazaar-theme h4,
-body.arcane-bazaar-theme .modal-title-top,
-body.arcane-bazaar-theme .builder-step-title-left,
-body.arcane-bazaar-theme .sheet-name,
-body.arcane-bazaar-theme .class-detail-title {
+body.goron-theme h1,
+body.goron-theme h2,
+body.goron-theme h3,
+body.goron-theme h4,
+body.goron-theme .modal-title-top,
+body.goron-theme .builder-step-title-left,
+body.goron-theme .sheet-name,
+body.goron-theme .class-detail-title {
     color: var(--arcane-cream) !important;
 }
-body.arcane-bazaar-theme .sheet-section-title,
-body.arcane-bazaar-theme .class-features-title,
-body.arcane-bazaar-theme .rooms-section-title,
-body.arcane-bazaar-theme .g14-dm-block-title,
-body.arcane-bazaar-theme .v13-feature-table-title {
+body.goron-theme .sheet-section-title,
+body.goron-theme .class-features-title,
+body.goron-theme .rooms-section-title,
+body.goron-theme .g14-dm-block-title,
+body.goron-theme .v13-feature-table-title {
     color: var(--arcane-gold-bright) !important;
     border-bottom-color: #37364b !important;
     letter-spacing: .09em !important;
 }
-body.arcane-bazaar-theme .modal-divider,
-body.arcane-bazaar-theme .g14-dm-divider,
-body.arcane-bazaar-theme hr {
+body.goron-theme .modal-divider,
+body.goron-theme .g14-dm-divider,
+body.goron-theme hr {
     border-color: transparent !important;
     background: linear-gradient(90deg, transparent, #4d432c 10%, #4d432c 90%, transparent) !important;
     height: 1px !important;
 }
 
 /* ---------- Inputs ---------- */
-body.arcane-bazaar-theme input,
-body.arcane-bazaar-theme select,
-body.arcane-bazaar-theme textarea,
-body.arcane-bazaar-theme .class-search-box,
-body.arcane-bazaar-theme .form-field input,
-body.arcane-bazaar-theme .form-field select,
-body.arcane-bazaar-theme .g14-select-trigger {
+body.goron-theme input,
+body.goron-theme select,
+body.goron-theme textarea,
+body.goron-theme .class-search-box,
+body.goron-theme .form-field input,
+body.goron-theme .form-field select,
+body.goron-theme .g14-select-trigger {
     color: var(--arcane-cream) !important;
     background: #202135 !important;
     border-color: #3a394f !important;
     border-radius: 4px !important;
     box-shadow: none !important;
 }
-body.arcane-bazaar-theme input::placeholder,
-body.arcane-bazaar-theme textarea::placeholder {
+body.goron-theme input::placeholder,
+body.goron-theme textarea::placeholder {
     color: #777994 !important;
 }
-body.arcane-bazaar-theme input:hover,
-body.arcane-bazaar-theme select:hover,
-body.arcane-bazaar-theme textarea:hover,
-body.arcane-bazaar-theme .g14-select-trigger:hover {
+body.goron-theme input:hover,
+body.goron-theme select:hover,
+body.goron-theme textarea:hover,
+body.goron-theme .g14-select-trigger:hover {
     border-color: #514d66 !important;
 }
-body.arcane-bazaar-theme input:focus,
-body.arcane-bazaar-theme select:focus,
-body.arcane-bazaar-theme textarea:focus,
-body.arcane-bazaar-theme .g14-select-trigger.open {
+body.goron-theme input:focus,
+body.goron-theme select:focus,
+body.goron-theme textarea:focus,
+body.goron-theme .g14-select-trigger.open {
     outline: none !important;
     border-color: #af8529 !important;
     background: #25263c !important;
@@ -223,20 +219,20 @@ body.arcane-bazaar-theme .g14-select-trigger.open {
 }
 
 /* ---------- Botões genéricos ---------- */
-body.arcane-bazaar-theme .btn-dark,
-body.arcane-bazaar-theme .btn-text,
-body.arcane-bazaar-theme .btn-mode,
-body.arcane-bazaar-theme .btn-dm-action,
-body.arcane-bazaar-theme .g14-action-btn,
-body.arcane-bazaar-theme .v13-resource-btn,
-body.arcane-bazaar-theme .filter-dropdown-btn,
-body.arcane-bazaar-theme .magic-tab-btn,
-body.arcane-bazaar-theme .sheet-feature-tab,
-body.arcane-bazaar-theme .v15-dm-nav button,
-body.arcane-bazaar-theme .v15-magic-rail button,
-body.arcane-bazaar-theme .v15-magic-subtabs button,
-body.arcane-bazaar-theme .v15-combatant-tabs button,
-body.arcane-bazaar-theme .page-button {
+body.goron-theme .btn-dark,
+body.goron-theme .btn-text,
+body.goron-theme .btn-mode,
+body.goron-theme .btn-dm-action,
+body.goron-theme .g14-action-btn,
+body.goron-theme .v13-resource-btn,
+body.goron-theme .filter-dropdown-btn,
+body.goron-theme .magic-tab-btn,
+body.goron-theme .sheet-feature-tab,
+body.goron-theme .v15-dm-nav button,
+body.goron-theme .v15-magic-rail button,
+body.goron-theme .v15-magic-subtabs button,
+body.goron-theme .v15-combatant-tabs button,
+body.goron-theme .page-button {
     color: #aaa9bd !important;
     background: #202135 !important;
     border: 1px solid #3c3b52 !important;
@@ -244,73 +240,73 @@ body.arcane-bazaar-theme .page-button {
     box-shadow: none !important;
     transition: color .15s ease, border-color .15s ease, background .15s ease, filter .15s ease !important;
 }
-body.arcane-bazaar-theme .btn-dark:hover:not(:disabled),
-body.arcane-bazaar-theme .btn-text:hover:not(:disabled),
-body.arcane-bazaar-theme .btn-mode:hover:not(:disabled),
-body.arcane-bazaar-theme .btn-dm-action:hover:not(:disabled),
-body.arcane-bazaar-theme .g14-action-btn:hover:not(:disabled),
-body.arcane-bazaar-theme .v13-resource-btn:hover:not(:disabled),
-body.arcane-bazaar-theme .filter-dropdown-btn:hover:not(:disabled),
-body.arcane-bazaar-theme .magic-tab-btn:hover:not(:disabled),
-body.arcane-bazaar-theme .sheet-feature-tab:hover:not(:disabled),
-body.arcane-bazaar-theme .v15-dm-nav button:hover:not(:disabled),
-body.arcane-bazaar-theme .v15-magic-rail button:hover:not(:disabled),
-body.arcane-bazaar-theme .v15-magic-subtabs button:hover:not(:disabled),
-body.arcane-bazaar-theme .v15-combatant-tabs button:hover:not(:disabled) {
+body.goron-theme .btn-dark:hover:not(:disabled),
+body.goron-theme .btn-text:hover:not(:disabled),
+body.goron-theme .btn-mode:hover:not(:disabled),
+body.goron-theme .btn-dm-action:hover:not(:disabled),
+body.goron-theme .g14-action-btn:hover:not(:disabled),
+body.goron-theme .v13-resource-btn:hover:not(:disabled),
+body.goron-theme .filter-dropdown-btn:hover:not(:disabled),
+body.goron-theme .magic-tab-btn:hover:not(:disabled),
+body.goron-theme .sheet-feature-tab:hover:not(:disabled),
+body.goron-theme .v15-dm-nav button:hover:not(:disabled),
+body.goron-theme .v15-magic-rail button:hover:not(:disabled),
+body.goron-theme .v15-magic-subtabs button:hover:not(:disabled),
+body.goron-theme .v15-combatant-tabs button:hover:not(:disabled) {
     color: var(--arcane-gold-bright) !important;
     border-color: #695b3a !important;
     background: #242538 !important;
 }
-body.arcane-bazaar-theme button:disabled {
+body.goron-theme button:disabled {
     opacity: .38 !important;
 }
 
 /* Ações principais em vinho */
-body.arcane-bazaar-theme .btn-enter-room,
-body.arcane-bazaar-theme .btn-builder-next,
-body.arcane-bazaar-theme .btn-remove-confirm,
-body.arcane-bazaar-theme .v15-danger-btn {
+body.goron-theme .btn-enter-room,
+body.goron-theme .btn-builder-next,
+body.goron-theme .btn-remove-confirm,
+body.goron-theme .v15-danger-btn {
     color: #fff2ce !important;
     background: linear-gradient(180deg, #7b1e32, #641526) !important;
     border-color: #9e293b !important;
     box-shadow: 0 5px 16px rgba(80,8,25,.25) !important;
 }
-body.arcane-bazaar-theme .btn-enter-room:hover,
-body.arcane-bazaar-theme .btn-builder-next:hover,
-body.arcane-bazaar-theme .btn-remove-confirm:hover {
+body.goron-theme .btn-enter-room:hover,
+body.goron-theme .btn-builder-next:hover,
+body.goron-theme .btn-remove-confirm:hover {
     filter: brightness(1.14);
 }
 
 /* Ações positivas continuam verdes, porém mais discretas */
-body.arcane-bazaar-theme .green,
-body.arcane-bazaar-theme .g14-action-btn.green {
+body.goron-theme .green,
+body.goron-theme .g14-action-btn.green {
     color: #a7f3d0 !important;
     background: rgba(16,83,55,.28) !important;
     border-color: #24714e !important;
 }
 
 /* ---------- Chips, badges, abas ---------- */
-body.arcane-bazaar-theme .level-chip,
-body.arcane-bazaar-theme .v15-chip,
-body.arcane-bazaar-theme .v15-grimoire-class-tab,
-body.arcane-bazaar-theme .g14-grimoire-class-tab,
-body.arcane-bazaar-theme .feat-source-badge,
-body.arcane-bazaar-theme .v13-resource-badge,
-body.arcane-bazaar-theme .class-card-hitdice,
-body.arcane-bazaar-theme .source-tag {
+body.goron-theme .level-chip,
+body.goron-theme .v15-chip,
+body.goron-theme .v15-grimoire-class-tab,
+body.goron-theme .g14-grimoire-class-tab,
+body.goron-theme .feat-source-badge,
+body.goron-theme .v13-resource-badge,
+body.goron-theme .class-card-hitdice,
+body.goron-theme .source-tag {
     color: #c3bfd0 !important;
     background: rgba(32,33,53,.9) !important;
     border-color: #4a485f !important;
 }
-body.arcane-bazaar-theme .v15-chip.active,
-body.arcane-bazaar-theme .v15-grimoire-class-tab.active,
-body.arcane-bazaar-theme .g14-grimoire-class-tab.active,
-body.arcane-bazaar-theme .magic-tab-btn.active,
-body.arcane-bazaar-theme .sheet-feature-tab.active,
-body.arcane-bazaar-theme .v15-dm-nav button.active,
-body.arcane-bazaar-theme .v15-magic-rail button.active,
-body.arcane-bazaar-theme .v15-magic-subtabs button.active,
-body.arcane-bazaar-theme .v15-combatant-tabs button.active {
+body.goron-theme .v15-chip.active,
+body.goron-theme .v15-grimoire-class-tab.active,
+body.goron-theme .g14-grimoire-class-tab.active,
+body.goron-theme .magic-tab-btn.active,
+body.goron-theme .sheet-feature-tab.active,
+body.goron-theme .v15-dm-nav button.active,
+body.goron-theme .v15-magic-rail button.active,
+body.goron-theme .v15-magic-subtabs button.active,
+body.goron-theme .v15-combatant-tabs button.active {
     color: var(--arcane-gold-bright) !important;
     background: rgba(198,155,50,.12) !important;
     border-color: var(--arcane-gold) !important;
@@ -318,7 +314,7 @@ body.arcane-bazaar-theme .v15-combatant-tabs button.active {
 }
 
 /* ---------- Classes ---------- */
-body.arcane-bazaar-theme .class-card-item {
+body.goron-theme .class-card-item {
     color: #d6d3df !important;
     background: #202135 !important;
     border-color: #4a485f !important;
@@ -326,52 +322,52 @@ body.arcane-bazaar-theme .class-card-item {
     box-shadow: none !important;
     transform: none !important;
 }
-body.arcane-bazaar-theme .class-card-item:hover {
+body.goron-theme .class-card-item:hover {
     color: var(--arcane-gold-bright) !important;
     background: #25263c !important;
     border-color: #806b3b !important;
     box-shadow: inset 3px 0 #8d6b26 !important;
 }
-body.arcane-bazaar-theme .class-card-item.selected {
+body.goron-theme .class-card-item.selected {
     color: var(--arcane-gold-bright) !important;
     background: #331823 !important;
     border-color: #8d6b26 !important;
     box-shadow: inset 3px 0 #c39729, inset 0 1px #763142, inset 0 -1px #763142 !important;
 }
-body.arcane-bazaar-theme .class-detail-title {
+body.goron-theme .class-detail-title {
     color: var(--arcane-gold-bright) !important;
 }
 
 /* ---------- Criador / progresso ---------- */
-body.arcane-bazaar-theme .modal-card.char-builder-modal-card {
+body.goron-theme .modal-card.char-builder-modal-card {
     background: var(--arcane-panel) !important;
     border: 1px solid #80662c !important;
     border-radius: 8px !important;
     box-shadow: 0 30px 90px rgba(0,0,0,.65), 0 0 30px rgba(178,127,24,.10) !important;
 }
-body.arcane-bazaar-theme .builder-top-header,
-body.arcane-bazaar-theme .builder-footer-bar {
+body.goron-theme .builder-top-header,
+body.goron-theme .builder-footer-bar {
     border-color: var(--arcane-border) !important;
 }
-body.arcane-bazaar-theme .progress-step-pill.active {
+body.goron-theme .progress-step-pill.active {
     color: #171310 !important;
     background: linear-gradient(180deg, #f4d46d, #d6aa3c) !important;
     border-color: #f4c94f !important;
     box-shadow: 0 0 0 1px rgba(244,201,79,.10), 0 6px 18px rgba(138,99,20,.22) !important;
 }
-body.arcane-bazaar-theme .progress-step-pill.inactive {
+body.goron-theme .progress-step-pill.inactive {
     color: #9495a8 !important;
     background: #202135 !important;
     border-color: #3c3b52 !important;
 }
-body.arcane-bazaar-theme .progress-step-pill.done {
+body.goron-theme .progress-step-pill.done {
     color: #77e4ad !important;
     background: rgba(16,83,55,.20) !important;
     border-color: #24714e !important;
 }
 
 /* ---------- Grimório ---------- */
-body.arcane-bazaar-theme .grimoire-drawer {
+body.goron-theme .grimoire-drawer {
     background:
         linear-gradient(rgba(255,255,255,.012) 1px, transparent 1px),
         var(--arcane-catalog) !important;
@@ -379,28 +375,28 @@ body.arcane-bazaar-theme .grimoire-drawer {
     border-right: 1px solid #65522b !important;
     box-shadow: 18px 0 55px rgba(0,0,0,.62) !important;
 }
-body.arcane-bazaar-theme .grimoire-header {
+body.goron-theme .grimoire-header {
     border-bottom-color: var(--arcane-border) !important;
 }
-body.arcane-bazaar-theme .grimoire-nav-tabs {
+body.goron-theme .grimoire-nav-tabs {
     padding: 3px !important;
     background: #1d1f33 !important;
     border: 1px solid #333248 !important;
     border-radius: 5px !important;
 }
-body.arcane-bazaar-theme .grimoire-tab-btn {
+body.goron-theme .grimoire-tab-btn {
     color: #8f90a6 !important;
     border-radius: 3px !important;
 }
-body.arcane-bazaar-theme .grimoire-tab-btn:hover {
+body.goron-theme .grimoire-tab-btn:hover {
     color: var(--arcane-gold-bright) !important;
 }
-body.arcane-bazaar-theme .grimoire-tab-btn.active {
+body.goron-theme .grimoire-tab-btn.active {
     color: var(--arcane-gold-bright) !important;
     background: rgba(198,155,50,.14) !important;
     box-shadow: inset 0 0 0 1px rgba(198,155,50,.38) !important;
 }
-body.arcane-bazaar-theme .spell-item-row {
+body.goron-theme .spell-item-row {
     min-height: 54px;
     color: var(--arcane-cream) !important;
     background: rgba(23,25,42,.80) !important;
@@ -409,305 +405,305 @@ body.arcane-bazaar-theme .spell-item-row {
     box-shadow: none !important;
     transition: background .15s ease, border-color .15s ease, box-shadow .15s ease !important;
 }
-body.arcane-bazaar-theme .spell-item-row:hover {
+body.goron-theme .spell-item-row:hover {
     background: #1c1d30 !important;
     border-color: #5c5264 !important;
 }
-body.arcane-bazaar-theme .spell-name-title {
+body.goron-theme .spell-name-title {
     color: var(--arcane-cream) !important;
 }
-body.arcane-bazaar-theme .spell-meta-tags {
+body.goron-theme .spell-meta-tags {
     color: var(--arcane-muted) !important;
 }
-body.arcane-bazaar-theme .btn-spell-action {
+body.goron-theme .btn-spell-action {
     color: #999ab4 !important;
     background: transparent !important;
     border-color: transparent !important;
     border-radius: 4px !important;
 }
-body.arcane-bazaar-theme .btn-spell-action:hover:not(:disabled) {
+body.goron-theme .btn-spell-action:hover:not(:disabled) {
     color: var(--arcane-gold-bright) !important;
     background: rgba(255,255,255,.05) !important;
 }
-body.arcane-bazaar-theme #grimoire-search {
+body.goron-theme #grimoire-search {
     background: #202135 !important;
     border-color: #3a394f !important;
 }
-body.arcane-bazaar-theme #v15-grimoire-editbar {
+body.goron-theme #v15-grimoire-editbar {
     background: #151827 !important;
     border-color: #65522b !important;
 }
-body.arcane-bazaar-theme .filter-dropdown-menu,
-body.arcane-bazaar-theme #g14-select-portal {
+body.goron-theme .filter-dropdown-menu,
+body.goron-theme #g14-select-portal {
     background: #17192a !important;
     border-color: #4a485f !important;
     box-shadow: 0 18px 45px rgba(0,0,0,.64) !important;
 }
-body.arcane-bazaar-theme .filter-opt:hover,
-body.arcane-bazaar-theme .g14-select-option:hover:not(:disabled) {
+body.goron-theme .filter-opt:hover,
+body.goron-theme .g14-select-option:hover:not(:disabled) {
     color: var(--arcane-gold-bright) !important;
     background: #242538 !important;
 }
 
 /* ---------- Drawers: Ficha e Escudo ---------- */
-body.arcane-bazaar-theme .character-sheet-drawer,
-body.arcane-bazaar-theme .dm-screen-drawer {
+body.goron-theme .character-sheet-drawer,
+body.goron-theme .dm-screen-drawer {
     background:
         radial-gradient(circle at 0% 0%, rgba(81,59,130,.08), transparent 30%),
         var(--arcane-catalog) !important;
     border-color: #65522b !important;
     box-shadow: 18px 0 55px rgba(0,0,0,.62) !important;
 }
-body.arcane-bazaar-theme .character-sheet-header,
-body.arcane-bazaar-theme .dm-screen-header {
+body.goron-theme .character-sheet-header,
+body.goron-theme .dm-screen-header {
     border-bottom-color: var(--arcane-border) !important;
 }
-body.arcane-bazaar-theme .dm-player-btn,
-body.arcane-bazaar-theme .v15-player-icon {
+body.goron-theme .dm-player-btn,
+body.goron-theme .v15-player-icon {
     color: #d9d5e1 !important;
     background: #202135 !important;
     border-color: #51455f !important;
     box-shadow: 0 4px 12px rgba(0,0,0,.24) !important;
 }
-body.arcane-bazaar-theme .dm-player-btn:hover,
-body.arcane-bazaar-theme .v15-player-icon:hover {
+body.goron-theme .dm-player-btn:hover,
+body.goron-theme .v15-player-icon:hover {
     color: var(--arcane-gold-bright) !important;
     border-color: #8d6b26 !important;
 }
-body.arcane-bazaar-theme .dm-player-btn.active,
-body.arcane-bazaar-theme .v15-player-icon.active {
+body.goron-theme .dm-player-btn.active,
+body.goron-theme .v15-player-icon.active {
     color: var(--arcane-gold-bright) !important;
     background: #331823 !important;
     border-color: #c39729 !important;
     box-shadow: inset 0 0 0 1px rgba(244,201,79,.08), 0 0 14px rgba(198,155,50,.14) !important;
 }
-body.arcane-bazaar-theme .g14-dm-top-actions {
+body.goron-theme .g14-dm-top-actions {
     background: #17192a !important;
     border-color: #333248 !important;
 }
 
 /* ---------- Painéis flutuantes ---------- */
-body.arcane-bazaar-theme #magic-panel,
-body.arcane-bazaar-theme #fighter-panel,
-body.arcane-bazaar-theme #attributes-popup {
+body.goron-theme #magic-panel,
+body.goron-theme #fighter-panel,
+body.goron-theme #attributes-popup {
     color: var(--arcane-cream) !important;
     background: #17192a !important;
     border-color: #80662c !important;
     border-radius: 8px !important;
     box-shadow: 0 24px 65px rgba(0,0,0,.60), 0 0 24px rgba(178,127,24,.08) !important;
 }
-body.arcane-bazaar-theme .g14-magic-header {
+body.goron-theme .g14-magic-header {
     border-bottom-color: var(--arcane-border) !important;
 }
-body.arcane-bazaar-theme .v15-stat {
+body.goron-theme .v15-stat {
     background: #202135 !important;
     border-color: #3c3b52 !important;
 }
-body.arcane-bazaar-theme .v15-stat strong,
-body.arcane-bazaar-theme .g14-magic-stat strong {
+body.goron-theme .v15-stat strong,
+body.goron-theme .g14-magic-stat strong {
     color: var(--arcane-gold-bright) !important;
 }
-body.arcane-bazaar-theme .slot-circle {
+body.goron-theme .slot-circle {
     border-color: #765f2b !important;
     background: #202135 !important;
 }
-body.arcane-bazaar-theme .slot-circle:not(.used):hover {
+body.goron-theme .slot-circle:not(.used):hover {
     border-color: var(--arcane-gold-bright) !important;
     box-shadow: 0 0 8px rgba(244,201,79,.20) !important;
 }
-body.arcane-bazaar-theme .slot-circle.used {
+body.goron-theme .slot-circle.used {
     background: #a1731b !important;
     border-color: #e5b841 !important;
     box-shadow: 0 0 8px rgba(229,184,65,.28) !important;
 }
 
 /* ---------- Modais e overlays ---------- */
-body.arcane-bazaar-theme .modal-overlay,
-body.arcane-bazaar-theme .v15-overlay,
-body.arcane-bazaar-theme .g14-overlay,
-body.arcane-bazaar-theme .mini-confirm-overlay {
+body.goron-theme .modal-overlay,
+body.goron-theme .v15-overlay,
+body.goron-theme .g14-overlay,
+body.goron-theme .mini-confirm-overlay {
     background: rgba(3,4,10,.84) !important;
     backdrop-filter: blur(5px);
 }
-body.arcane-bazaar-theme .modal-card:not(.char-builder-modal-card),
-body.arcane-bazaar-theme .v15-modal,
-body.arcane-bazaar-theme .g14-modal,
-body.arcane-bazaar-theme .mini-confirm-card,
-body.arcane-bazaar-theme .account-switch-panel {
+body.goron-theme .modal-card:not(.char-builder-modal-card),
+body.goron-theme .v15-modal,
+body.goron-theme .g14-modal,
+body.goron-theme .mini-confirm-card,
+body.goron-theme .account-switch-panel {
     background: #17192a !important;
     border-color: #80662c !important;
     border-radius: 8px !important;
     box-shadow: 0 30px 90px rgba(0,0,0,.65), 0 0 30px rgba(178,127,24,.10) !important;
 }
-body.arcane-bazaar-theme .modal-step-header,
-body.arcane-bazaar-theme .v15-modal-head,
-body.arcane-bazaar-theme .g14-modal-head,
-body.arcane-bazaar-theme .mini-confirm-header,
-body.arcane-bazaar-theme .account-switch-header {
+body.goron-theme .modal-step-header,
+body.goron-theme .v15-modal-head,
+body.goron-theme .g14-modal-head,
+body.goron-theme .mini-confirm-header,
+body.goron-theme .account-switch-header {
     background: linear-gradient(90deg, #271724, #1a1b2d 65%) !important;
     border-bottom-color: var(--arcane-border) !important;
 }
 
 /* ---------- Resumos e tabelas ---------- */
-body.arcane-bazaar-theme table {
+body.goron-theme table {
     border-collapse: collapse;
 }
-body.arcane-bazaar-theme th {
+body.goron-theme th {
     color: var(--arcane-gold-bright) !important;
     background: #181a2b !important;
     border-color: var(--arcane-border) !important;
 }
-body.arcane-bazaar-theme td {
+body.goron-theme td {
     border-color: #292a3d !important;
 }
-body.arcane-bazaar-theme tr:hover td {
+body.goron-theme tr:hover td {
     background: rgba(255,255,255,.018);
 }
-body.arcane-bazaar-theme .v10-summary-name strong,
-body.arcane-bazaar-theme .v3-summary-head strong,
-body.arcane-bazaar-theme .v10-adv-title {
+body.goron-theme .v10-summary-name strong,
+body.goron-theme .v3-summary-head strong,
+body.goron-theme .v10-adv-title {
     color: var(--arcane-gold-bright) !important;
 }
-body.arcane-bazaar-theme .v10-summary-stat,
-body.arcane-bazaar-theme .v12-summary-stat,
-body.arcane-bazaar-theme .v3-summary-ability {
+body.goron-theme .v10-summary-stat,
+body.goron-theme .v12-summary-stat,
+body.goron-theme .v3-summary-ability {
     background: #202135 !important;
     border-color: #3c3b52 !important;
 }
 
 /* ---------- Atributos / perícias ---------- */
-body.arcane-bazaar-theme .builder-ability-card,
-body.arcane-bazaar-theme .builder-ability-result,
-body.arcane-bazaar-theme .skill-bonus,
-body.arcane-bazaar-theme .char-stat-readout {
+body.goron-theme .builder-ability-card,
+body.goron-theme .builder-ability-result,
+body.goron-theme .skill-bonus,
+body.goron-theme .char-stat-readout {
     background: #202135 !important;
     border-color: #3c3b52 !important;
 }
-body.arcane-bazaar-theme .builder-ability-card-title {
+body.goron-theme .builder-ability-card-title {
     border-bottom-color: #3c3b52 !important;
 }
-body.arcane-bazaar-theme .builder-ability-result,
-body.arcane-bazaar-theme .skill-bonus,
-body.arcane-bazaar-theme .char-stat-readout {
+body.goron-theme .builder-ability-result,
+body.goron-theme .skill-bonus,
+body.goron-theme .char-stat-readout {
     color: var(--arcane-gold-bright) !important;
 }
-body.arcane-bazaar-theme .quick-ability-save.proficient {
+body.goron-theme .quick-ability-save.proficient {
     color: #4af4a3 !important;
     border-color: #24714e !important;
     background: rgba(16,83,55,.20) !important;
 }
 
 /* ---------- Dados e histórico ---------- */
-body.arcane-bazaar-theme .dice-item {
+body.goron-theme .dice-item {
     border-color: #80662c !important;
     background:
         radial-gradient(circle at 50% 45%, #2b2750, #14172c 70%) !important;
     color: var(--arcane-gold-bright) !important;
     box-shadow: 0 0 16px rgba(52,222,165,.07) !important;
 }
-body.arcane-bazaar-theme .log-entry,
-body.arcane-bazaar-theme .dice-log-item {
+body.goron-theme .log-entry,
+body.goron-theme .dice-log-item {
     background: rgba(23,25,42,.86) !important;
     border-color: #333248 !important;
 }
 
 /* ---------- Iniciativa ---------- */
-body.arcane-bazaar-theme .init-header {
+body.goron-theme .init-header {
     border-bottom-color: var(--arcane-border) !important;
 }
-body.arcane-bazaar-theme .combatant-card,
-body.arcane-bazaar-theme .initiative-item {
+body.goron-theme .combatant-card,
+body.goron-theme .initiative-item {
     background: #17192a !important;
     border-color: #333248 !important;
 }
-body.arcane-bazaar-theme .combatant-card.active,
-body.arcane-bazaar-theme .initiative-item.active {
+body.goron-theme .combatant-card.active,
+body.goron-theme .initiative-item.active {
     border-color: #8d6b26 !important;
     background: #331823 !important;
     box-shadow: inset 3px 0 #c39729 !important;
 }
 
 /* ---------- Salas ---------- */
-body.arcane-bazaar-theme .room-card-item {
+body.goron-theme .room-card-item {
     color: var(--arcane-cream) !important;
     background: #17192a !important;
     border-color: #333248 !important;
     box-shadow: none !important;
 }
-body.arcane-bazaar-theme .room-card-item:hover {
+body.goron-theme .room-card-item:hover {
     background: #1c1d30 !important;
     border-color: #5c5264 !important;
 }
-body.arcane-bazaar-theme .room-card-title {
+body.goron-theme .room-card-title {
     color: var(--arcane-cream) !important;
 }
-body.arcane-bazaar-theme .room-card-badge {
+body.goron-theme .room-card-badge {
     color: #d3b56f !important;
     background: rgba(110,84,20,.20) !important;
     border-color: #806928 !important;
 }
 
 /* ---------- Fechamentos / ícones ---------- */
-body.arcane-bazaar-theme .btn-close-modal,
-body.arcane-bazaar-theme .close-btn,
-body.arcane-bazaar-theme .drawer-close,
-body.arcane-bazaar-theme .btn-close-builder {
+body.goron-theme .btn-close-modal,
+body.goron-theme .close-btn,
+body.goron-theme .drawer-close,
+body.goron-theme .btn-close-builder {
     color: #999ab4 !important;
     background: transparent !important;
     border-color: transparent !important;
 }
-body.arcane-bazaar-theme .btn-close-modal:hover,
-body.arcane-bazaar-theme .close-btn:hover,
-body.arcane-bazaar-theme .drawer-close:hover,
-body.arcane-bazaar-theme .btn-close-builder:hover {
+body.goron-theme .btn-close-modal:hover,
+body.goron-theme .close-btn:hover,
+body.goron-theme .drawer-close:hover,
+body.goron-theme .btn-close-builder:hover {
     color: var(--arcane-gold-bright) !important;
     background: rgba(255,255,255,.05) !important;
 }
 
 /* ---------- Estados especiais preservados ---------- */
-body.arcane-bazaar-theme .ability-badge,
-body.arcane-bazaar-theme .class-chip,
-body.arcane-bazaar-theme [class*="rarity-"],
-body.arcane-bazaar-theme .condition-chip {
+body.goron-theme .ability-badge,
+body.goron-theme .class-chip,
+body.goron-theme [class*="rarity-"],
+body.goron-theme .condition-chip {
     box-shadow: none;
 }
-body.arcane-bazaar-theme .class-chip.clerigo,
-body.arcane-bazaar-theme .v15-grimoire-class-tab.clerigo,
-body.arcane-bazaar-theme .g14-grimoire-class-tab.clerigo {
+body.goron-theme .class-chip.clerigo,
+body.goron-theme .v15-grimoire-class-tab.clerigo,
+body.goron-theme .g14-grimoire-class-tab.clerigo {
     color: #ffd27b !important;
     background: rgba(117,54,13,.28) !important;
     border-color: #9b5b20 !important;
 }
 
 /* ---------- Foco de teclado ---------- */
-body.arcane-bazaar-theme button:focus-visible,
-body.arcane-bazaar-theme input:focus-visible,
-body.arcane-bazaar-theme select:focus-visible,
-body.arcane-bazaar-theme textarea:focus-visible {
+body.goron-theme button:focus-visible,
+body.goron-theme input:focus-visible,
+body.goron-theme select:focus-visible,
+body.goron-theme textarea:focus-visible {
     outline: 2px solid #e1ba4c !important;
     outline-offset: 2px !important;
 }
 
 /* ---------- Redução de brilhos legados excessivos ---------- */
-body.arcane-bazaar-theme .class-card-item,
-body.arcane-bazaar-theme .progress-step-pill,
-body.arcane-bazaar-theme .dm-player-btn,
-body.arcane-bazaar-theme .v15-player-icon,
-body.arcane-bazaar-theme .btn-spell-action,
-body.arcane-bazaar-theme .card {
+body.goron-theme .class-card-item,
+body.goron-theme .progress-step-pill,
+body.goron-theme .dm-player-btn,
+body.goron-theme .v15-player-icon,
+body.goron-theme .btn-spell-action,
+body.goron-theme .card {
     text-shadow: none !important;
 }
 
 /* ---------- Responsivo ---------- */
 @media (max-width: 760px) {
-    body.arcane-bazaar-theme {
+    body.goron-theme {
         padding-left: 10px;
         padding-right: 10px;
     }
-    body.arcane-bazaar-theme .vtt-header-bar {
+    body.goron-theme .vtt-header-bar {
         padding: 0 14px;
     }
-    body.arcane-bazaar-theme .v15-sheet-level-row {
+    body.goron-theme .v15-sheet-level-row {
         flex-wrap: wrap;
     }
 }
